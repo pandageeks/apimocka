@@ -25,6 +25,9 @@ describe('APImocka: list', function () {
         sandbox = sinon.sandbox.create()
         sandbox.stub(logger, 'log')
         oldToken = store.get(config.storeKeys.token)
+    })
+
+    beforeEach(function () {
         nock(config.server)
             .get('/api/mock')
             .reply(200, response.list)
