@@ -1,0 +1,17 @@
+{
+    "total": 5,
+    "name": "trial",
+    "routes": {
+        "users": {
+            "firstname": "name.firstName",
+            "lastname": "name.lastName"
+        },
+        "public": {
+            "avatar": "internet.avatar",
+            "username": "internet.userName"
+        },
+        "other": {
+            "address": "address.state, address.country"
+        }
+    }
+}

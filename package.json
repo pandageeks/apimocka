@@ -1,0 +1,49 @@
+{
+  "name": "apimocka-cli",
+  "version": "0.9.0",
+  "description": "Create Mock data from terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostffcode/apimocka.git"
+  },
+  "keywords": [
+    "mocks",
+    "api",
+    "mocka",
+    "apimocka"
+  ],
+  "author": "ghostffcode <bliss@ghostffco.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostffcode/apimocka/issues"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "apimocka": "./lib/index.js"
+  },
+  "homepage": "https://github.com/ghostffcode/apimocka#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "colors": "^1.1.2",
+    "commander": "^2.12.2",
+    "configstore": "^3.1.1",
+    "express": "^4.16.2",
+    "form-data": "^2.3.1",
+    "inquirer": "3.3.0",
+    "lodash": "^4.17.4",
+    "prompt": "^1.0.0",
+    "qs": "^6.5.1",
+    "terminal-table": "^0.0.12"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.1.0",
+    "nock": "^9.1.5",
+    "sinon": "^4.1.3"
+  }
+}
