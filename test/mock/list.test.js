@@ -30,16 +30,18 @@ describe('APImocka: list', function () {
             .reply(200, response.list)
     })
 
-    beforeEach(function () {
-        store.set(config.storeKeys.token, 'sampleToken')
-    })
 
-    afterEach(function () {
+    after(function () {
         (oldToken) ? store.set(config.storeKeys.token, oldToken) : store.delete(config.storeKeys.token)
         sandbox.restore()
     })
 
     describe('With authentication', function () {
+
+        beforeEach(function () {
+            store.set(config.storeKeys.token, 'sampleToken')
+        })
+
         it('should pass', function (done) {
             list().should.be.fulfilled.and.notify(done)
         })
