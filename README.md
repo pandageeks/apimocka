@@ -9,6 +9,8 @@
 [![npm package](https://img.shields.io/npm/v/apimocka.svg)](https://www.npmjs.com/package/apimocka)
 [![npm package](https://img.shields.io/npm/dm/apimocka.svg)](https://www.npmjs.com/package/apimocka)
 
+A CLI that helps you create quick and fast hosted API/mocks for easy prototyping.
+
 ## Features
 
 - Authenticate with the APImocka server.
