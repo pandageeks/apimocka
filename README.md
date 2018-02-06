@@ -13,7 +13,7 @@
 
 APImocka helps you create a quick hosted API server populated with mock data using the [faker API](http://marak.github.io/faker.js/).
 
-This is mostly used for but not limited to quick prototyping, tests and/or simultaneously developing UI and backend API.
+This has many uses, including, but not limited to, quick prototyping, tests and/or simultaneously developing UI and backend API.
 
 ## Features
 
