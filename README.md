@@ -4,7 +4,7 @@
   </a>
 </p>
 
-[![Travis CI Build Status](https://travis-ci.org/ghostffcode/apimocka.svg?branch=master)](https://travis-ci.org/pandageeks/apimocka)
+[![Travis CI Build Status](https://travis-ci.org/pandageeks/apimocka.svg?branch=master)](https://travis-ci.org/pandageeks/apimocka)
 [![David Dependancy Status](https://david-dm.org/pandageeks/apimocka.svg)](https://david-dm.org/pandageeks/apimocka)
 [![npm package](https://img.shields.io/npm/v/apimocka.svg)](https://www.npmjs.com/package/apimocka)
 [![npm package](https://img.shields.io/npm/dm/apimocka.svg)](https://www.npmjs.com/package/apimocka)
