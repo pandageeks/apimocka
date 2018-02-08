@@ -1,6 +1,6 @@
 {
   "name": "apimocka",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "Create quick hosted mock data from terminal",
   "main": "index.js",
   "scripts": {
