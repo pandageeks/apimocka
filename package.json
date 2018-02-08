@@ -1,6 +1,6 @@
 {
   "name": "apimocka",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "Create quick hosted mock data from terminal",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghostffcode/apimocka.git"
+    "url": "git+https://github.com/pandageeks/apimocka.git"
   },
   "keywords": [
     "mocks",
@@ -19,13 +19,13 @@
   "author": "ghostffcode <bliss@ghostffco.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ghostffcode/apimocka/issues"
+    "url": "https://github.com/pandageeks/apimocka/issues"
   },
   "preferGlobal": true,
   "bin": {
     "apimocka": "./lib/index.js"
   },
-  "homepage": "https://github.com/ghostffcode/apimocka#readme",
+  "homepage": "https://github.com/pandageeks/apimocka#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "colors": "^1.1.2",
